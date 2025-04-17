@@ -1,59 +1,25 @@
-# BaseIcallyCounting2
+# Base-ically-counting
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+This is actually a quick remake of Base-ically-counting. Angular has come a long way since version 15 (_at the time of committing v19!_). Soooo.. here you go! 😁
 
-## Development server
+---
 
-To start a local development server, run:
+A very simple web-app to explore counting in different bases (or number systems).
 
-```bash
-ng serve
-```
+This very simple web-app consists of inputs for each of the major number systems / bases. Using the correct digits that correspond to the chosen base, you can enter a number and see it's representation in the other bases live (_ie: without having to submit a form..._).
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Story goes, I was working with colours in CSS and a question came up in my team around how many colour values there are between RGB vs. HEX. I wanted to demonstrate that there are the same but couldn't find an app online that would allow me to count in different bases without having to submit a form. So, I created base-ically-counting. It's also allowed me to practice creating and deploying apps 😊
 
-## Code scaffolding
+Follow the instructions below to run yourself or you can visit it here: <https://base-ically-counting.web.app>
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Running locally
 
-```bash
-ng generate component component-name
-```
+1. Pull this repo
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. Run `npm ci`
 
-```bash
-ng generate --help
-```
+3. Run `npm start`
 
-## Building
+_Note: this starts a development server so changes to the code should reflect instantly to the browser_
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Happy hacking 👋
