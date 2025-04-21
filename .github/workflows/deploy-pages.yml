@@ -32,5 +32,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/base-ically-counting/browser
-          publish_branch: gh-pages
-          destination_dir: base-ically-counting
+          force_orphan: true
+          publish_branch: main
+          base: /base-ically-counting
