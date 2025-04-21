@@ -22,7 +22,7 @@ jobs:
         run: yarn install
 
       - name: Build the Angular app
-        run: npx ng build --prod
+        run: npx ng build --configuration production
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
