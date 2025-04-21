@@ -1,5 +1,5 @@
 {
-  "name": "base-ically-counting2",
+  "name": "base-ically-counting",
   "version": "0.0.0",
   "scripts": {
     "start": "npx ng serve",
