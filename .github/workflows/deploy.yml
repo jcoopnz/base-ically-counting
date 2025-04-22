@@ -4,9 +4,12 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,13 +24,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build Angular project
+      - name: Build the project
         run: npx ng build --configuration production
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/base-ically-counting
-          publish_branch: gh-pages
-
+          publish_dir: ./dist/base-ically-counting/browser/
+          publish_branch: deployment-branch
