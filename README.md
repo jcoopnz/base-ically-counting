@@ -10,7 +10,7 @@ This very simple web-app consists of inputs for each of the major number systems
 
 Story goes, I was working with colours in CSS and a question came up in my team around how many colour values there are between RGB vs. HEX. I wanted to demonstrate that there are the same but couldn't find an app online that would allow me to count in different bases without having to submit a form. So, I created base-ically-counting. It's also allowed me to practice creating and deploying apps 😊
 
-Follow the instructions below to run yourself or you can visit it here: <https://jordy1311.github.io/base-ically-counting/>
+Follow the instructions below to run yourself or you can visit it here: <https://jcoopnz.github.io/base-ically-counting/>
 
 ## Running locally
 
