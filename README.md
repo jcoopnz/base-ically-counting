@@ -1,6 +1,6 @@
 # Base-ically-counting
 
-This is actually a quick remake of Base-ically-counting. Angular has come a long way since version 15 (_at the time of committing v19!_). Soooo.. here you go! 😁
+This is actually a quick remake of Base-ically-counting. Angular has come a long way since version 15. Soooo.. here you go! 😁
 
 ---
 
